@@ -1,0 +1,71 @@
+#weather {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(160deg, #333333, #333333 40%, #e96e50 100%);
+  border-radius: 5px;
+  border: 3px solid #e96e50;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+}
+#weather #input_wrapper {
+  width: 100%;
+  display: flex;
+  padding: 5px;
+}
+#weather #input_wrapper button {
+  background-color: transparent;
+  box-shadow: none;
+  border: 3px solid #e96e50;
+  color: #e96e50;
+  padding: 0px 10px;
+  margin: 0px 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+#weather #input_wrapper input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #e96e50;
+  background-color: #333333;
+  color: #e96e50;
+}
+#weather #input_wrapper input:focus {
+  background-color: #4d4d4d;
+  outline: none;
+  box-shadow: inset 0 -1px 0 1px #e96e50;
+}
+#weather #weather_wrapper {
+  display: flex;
+  align-items: center;
+}
+#weather #weather_wrapper p {
+  margin: 0;
+}
+#weather #weather_wrapper .weather_icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+}
+#weather #weather_wrapper .weather_icon img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: -10px;
+}
+#weather #weather_wrapper .weather_icon_text {
+  font-size: 12px;
+  text-align: center;
+  text-transform: capitalize;
+  max-width: 90px;
+}
+#weather #weather_wrapper .temperature {
+  font-size: 36px;
+  height: 100%;
+  margin-right: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

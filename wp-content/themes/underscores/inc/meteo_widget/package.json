@@ -1,0 +1,20 @@
+{
+  "name": "meteo_widget",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass scss/style.scss css/style.css --watch --color",
+    "dev": "browser-sync start --proxy \"localhost/vue-widget\" --files \"**/*.css, **/*.php, **/*.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.27.5"
+  },
+  "devDependencies": {
+    "sass": "^1.37.5"
+  }
+}
